@@ -170,6 +170,8 @@ main p {
 .blanco {
   background-color: white;
   text-align: center;
+  padding-bottom: 20px
+  ;
 }
 
 .blanco h3 {
@@ -188,7 +190,7 @@ main p {
 .blanco p {
   font-size: 1rem;
   text-transform: initial;
-  padding: 0 25px 10px 25px;
+  padding: 0 30px 10px 30px;
   
 }
 
@@ -197,18 +199,21 @@ main p {
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border-color: #540b51;
     border-radius: 5px;
+    text-transform: uppercase;
 }
 #talk {
     background-color: white;
     color: #540b51;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border-color: #540b51;
     border-radius: 5px;
+    text-transform: uppercase;
+    margin-bottom: 0;
 
 }
 .blanco ul{
@@ -218,11 +223,53 @@ main p {
     font-size: 0.8rem;
     color: black;
    
-    padding: 5px 20px 5px 20px;
+    padding: 5px 50px 5px 50px;
 }
 .blanco span {
     color:#540b51;
     font-size: 2rem;
+    padding-bottom: 10px;
     
+}
+
+#welcome {
     
+    background-color: #540b51;
+    text-align: center;
+    margin-top: 0;
+    height: 300px;
+    display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 5%;
+}
+
+#welcome h3{
+    margin:0px;
+color: white;
+padding:60px 40px 20px 40px;
+font-size: 2rem;
+}
+
+#sales {
+    background-color: #540b51;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.8rem;
+    border-color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+}
+#free {
+background-color: white;
+    color: #540b51;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.8rem;
+    border-color: #540b51;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
