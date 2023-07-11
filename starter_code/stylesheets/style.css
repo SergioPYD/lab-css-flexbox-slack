@@ -273,3 +273,53 @@ background-color: white;
     text-transform: uppercase;
     margin-bottom: 0;
 }
+
+@media (min-width: 768px) {
+    header{
+        background-image: url('./images/hero-product-ui.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+  .container {
+    display: flex;
+    align-items: center;
+    height: 600px;
+    
+}
+   .container h1{
+    position: relative;
+    bottom: 50px;
+font-size: 3rem;
+text-align: left;
+padding-left: 15px;
+
+   }
+
+   #companies img {
+    display: flex;
+    width: 10%;
+
+   }
+   #bottonenterprise {
+    display: flex;
+   }
+
+   .blanco ul{
+    display: flex;
+   }
+
+}
+
+@media (min-width: 1024px) {
+    nav ul {
+        display:flex;
+        justify-content: center;
+        color: white;
+        
+      }
+nav li{
+    text-decoration: none;
+}
+}
