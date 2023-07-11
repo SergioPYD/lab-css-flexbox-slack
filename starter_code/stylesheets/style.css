@@ -8,3 +8,221 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+img {
+  max-width: 100vw;
+}
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #540b51;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:1px solid #f3eae2;
+  
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+nav img {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+nav ul {
+  display: none;
+}
+
+nav button {
+  background-color: transparent;
+  border: none;
+}
+
+header {
+  text-align: center;
+  background-color: #540b51;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+header h1 {
+  color: white;
+  margin: 0;
+  padding-top: 10px;
+}
+header p {
+  color: white;
+}
+header p span {
+  color: #ecb12f;
+}
+
+#proyect-unicorn img {
+  height: 300px;
+  object-fit: cover;
+  object-position: left 25% top 25%;
+}
+.divButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  margin: 15px;
+  border: none;
+}
+
+#email {
+  background-color: white;
+  padding: 18px;
+  border-radius: 15px;
+  color: #540b51;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+}
+#google {
+  background-color: #4285f4;
+  padding: 9px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+#google img {
+  position: relative;
+  right: 75px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+#google span {
+  position: relative;
+  bottom: 10px;
+  right: 18px;
+}
+
+main {
+  background-color: #f3eae2;
+}
+
+main p {
+  margin: 0;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+#companies img {
+  width: 20%;
+}
+#companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px;
+  padding-bottom: 20px;
+}
+
+#imgazul {
+  padding-top: 10px;
+  position: relative;
+  right: 15px;
+}
+
+.team {
+  padding-bottom: 50px;
+}
+.team h2 {
+  padding-left: 10px;
+  padding-top: 30px;
+  font-size: 2rem;
+  margin: 0;
+}
+.team p {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 1rem;
+  margin: 0;
+  text-transform: initial;
+  text-align: left;
+}
+.team a {
+  text-decoration: none;
+  color: #2e71a6;
+  padding-left: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#imageverde {
+  position: relative;
+  left: 15px;
+}
+
+#imageAmarilla {
+  position: relative;
+  right: 15px;
+}
+
+.blanco {
+  background-color: white;
+  text-align: center;
+}
+
+.blanco h3 {
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 2rem;
+}
+
+.bottonenterprise {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 5%;
+}
+.blanco p {
+  font-size: 1rem;
+  text-transform: initial;
+  padding: 0 25px 10px 25px;
+  
+}
+
+#slack {
+    background-color: #540b51;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    border-color: #540b51;
+    border-radius: 5px;
+}
+#talk {
+    background-color: white;
+    color: #540b51;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    border-color: #540b51;
+    border-radius: 5px;
+
+}
+.blanco ul{
+    list-style:none;
+}
+.blanco ul p{
+    font-size: 0.8rem;
+    color: black;
+   
+    padding: 5px 20px 5px 20px;
+}
+.blanco span {
+    color:#540b51;
+    font-size: 2rem;
+    
+    
+}
